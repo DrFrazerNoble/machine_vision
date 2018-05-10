@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1525946758 "c:/Users/Fraze/Desktop/machine_vision/core_module_worksheet/worksheet.tex" "worksheet.pdf" "worksheet" 1525946759
-  "c:/Users/Fraze/Desktop/machine_vision/core_module_worksheet/worksheet.tex" 1525946758 2452 fdda296ba35f95e130e0e65e6d766117 ""
+["pdflatex"] 1525946964 "c:/Users/Fraze/Desktop/machine_vision/core_module_worksheet/worksheet.tex" "worksheet.pdf" "worksheet" 1525946965
+  "c:/Users/Fraze/Desktop/machine_vision/core_module_worksheet/worksheet.tex" 1525946963 2453 db619169f6ca5e45776632c8b335aa36 ""
   "c:/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1519592889 3332 103109f5612ad95229751940c61aada0 ""
   "c:/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1519591539 1004 54797486969f23fa377b128694d548df ""
   "c:/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1519591539 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -51,9 +51,9 @@
   "c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1519601616 2727006 7645c3fa0a3968517514c5195539deca ""
   "c:/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1519601701 4127795 ebbc2d9fb055a2e332869aff151bc15e ""
   "c:/texlive/2017/texmf.cnf" 1519601590 673 4ae7b2f49cee444c5343a45b5d0f169c ""
-  "worksheet.aux" 1525946759 8 a94a2480d3289e625eea47cd1b285758 ""
-  "worksheet.tex" 1525946758 2452 fdda296ba35f95e130e0e65e6d766117 ""
+  "worksheet.aux" 1525946964 8 a94a2480d3289e625eea47cd1b285758 ""
+  "worksheet.tex" 1525946963 2453 db619169f6ca5e45776632c8b335aa36 ""
   (generated)
-  "worksheet.aux"
   "worksheet.log"
+  "worksheet.aux"
   "worksheet.pdf"
