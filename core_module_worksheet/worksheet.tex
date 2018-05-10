@@ -1,0 +1,88 @@
+\documentclass[12pt, A4]{article}
+ 
+    \usepackage[left=1in, top=0in]{geometry} 
+    \usepackage{amsmath,amsthm,amssymb}
+    \usepackage{enumitem}
+    \usepackage{listings}
+
+    \title{OpenCV Core Module Worksheet}
+    \author{Dr Frazer K. Noble\\[0.25cm]
+    School of Engineering and Advanced Technology\\
+    Massey University\\
+    Auckland}
+    \date{}
+
+    \setlength\parindent{0pt}
+
+\begin{document}
+
+\maketitle
+
+\section*{Activity One}
+
+\begin{enumerate}[label=(\alph*)]
+
+    \item Write a program using OpenCV that displays on the console the result of the following equation:
+    \begin{equation*}
+        R = 
+        \begin{bmatrix}
+            0.866 & -0.500 & 0\\
+            0.5 & \phantom{-}0.866 & 0\\
+            0 & \phantom{-}0 & 1
+        \end{bmatrix}
+        \times
+        \begin{bmatrix}
+            1.0 & 0.0 & 0.0\\
+            0.0 & 1.0 & 0.0\\
+            0.0 & 0.0 & 1.0
+        \end{bmatrix}
+    \end{equation*}
+
+    \item Write a program using OpenCV that displays on the console the value of the following matrix at point (1,2):
+    \begin{equation*}
+        A =
+        \begin{bmatrix}
+            0.866 & -0.500 & 0.000 & 10.000\\
+            0.500 & \phantom{-}0.866 & 0.000 & 5.100\\
+            0.000 & \phantom{-}0.000 & 1.000 & 0.000\\
+            0.000 & \phantom{-}0.000 & 0.000 & 1.000
+        \end{bmatrix}
+    \end{equation*}
+
+\end{enumerate}
+
+
+\section*{Activity Two}
+
+Write a program using OpenCV that instantiates the following Matrix:
+\begin{equation*}
+    F = 
+    \begin{bmatrix}
+        0.866 & -0.500 & 0\\
+        0.5 & \phantom{-}0.866 & 0\\
+        0 & \phantom{-}0 & 1
+    \end{bmatrix}
+\end{equation*}
+
+\begin{enumerate}[label=(\alph*)]
+
+    \item Using OpenCV's \lstinline!cv::copyTo()! function, copy $F$ to a new \lstinline!cv::Mat! object, $G$. 
+
+    \item Change $F$'s contents and display it and $G$ on the console. Are $F$ and $G$ the same?
+
+    \item Using OpenCV's \lstinline!cv::clone()! function, clone $F$ to a new \lstinline!cv::Mat! object, $H$. 
+
+    \item Change $F$'s contents and display it and $H$ on the console. Are $F$ and $H$ the same?
+    
+\end{enumerate}
+
+\section*{Activity Three}
+
+\begin{enumerate}[label=(\alph*)]
+    
+    \item Write a program using OpenCV that reads in an image, halves its width and height, and then saves the changed image.
+
+\end{enumerate}
+
+
+\end{document}
