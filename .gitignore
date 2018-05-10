@@ -1,0 +1,8 @@
+# Untracked Files
+**/bazel-*/*
+**/.vs/*
+**/Debug/*
+**/x64/*
+**/output/**
+**/html/**
+**/latex/**
