@@ -6,10 +6,7 @@
     \usepackage{listings}
 
     \title{OpenCV Imgproc Module Worksheet}
-    \author{Dr Frazer K. Noble\\[0.25cm]
-    School of Engineering and Advanced Technology\\
-    Massey University\\
-    Auckland}
+    \author{Dr Frazer K. Noble}
     \date{}
 
     \setlength\parindent{0pt}
@@ -22,8 +19,43 @@
 
 \begin{enumerate}[label=(\alph*)]
 
-    \item 
+    \item Draw a red, 100 $\times$ 100 px rectangle.
+
+    \item Draw the contour of the rectangle as a blue outline with a line thickness of 2.
 
 \end{enumerate}
+
+\section*{Activity Two}
+
+\begin{enumerate}[label=(\alph*)]
+
+    \item Create a random kernel and apply it to an image.
+
+    \item Apply the following kernel to an image. Describe what it does to the image.
+    \begin{equation*}
+        K = 
+        \begin{bmatrix}
+            \phantom{-}0 & -1 & \phantom{-}0\\
+            -1 & \phantom{-}8 & -1\\
+            \phantom{-}0 & -1 & \phantom{-}0            
+        \end{bmatrix}
+    \end{equation*}
+
+\end{enumerate}
+
+\section*{Activity Three}
+
+\begin{enumerate}[label=(\alph*)]
+
+    \item Compute the affine transformation, given the following pairs of points:
+    \begin{equation*}
+        \begin{split}
+            x &= [(0,0), (5,0), (0,5)]\\
+            y &= [(0,0), (25,0), (0, 25)]
+        \end{split}
+    \end{equation*}
+
+\end{enumerate}
+
 
 \end{document}
