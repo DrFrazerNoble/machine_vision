@@ -19,6 +19,8 @@ I have used the following tools to develop the tutorials:
 
 ## Tutorials
 
+Coming soon.
+<!-- 
 This tutorials are as follows:  
 
 1. How to Set-up Visual Studio. In this tutorial, I describe how to download, install, and configure Visual Studio for C++ development. Watch the companion video [here]().  
@@ -31,7 +33,7 @@ This tutorials are as follows:
 
 5. An Introduction to OpenCV's Image Processing Module. In this tutorial, I describe key aspects of OpenCV's image processing functionality. Watch the companion video [here]().
 
-6. A General OpenCV Project. In this tutorial, I present a template for future OpenCV-based projects. Watch the companion video [here]().
+6. A General OpenCV Project. In this tutorial, I present a template for future OpenCV-based projects. Watch the companion video [here](). -->
 
 ## Conclusion
 
